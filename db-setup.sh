@@ -6,5 +6,5 @@
 # if [ "$MONGO_STARTED" != "" ]; then
   # Sample: MONGO_PORT=tcp://172.17.0.20:27017
   #mongo db/admin /tmp/db-setup.js
-  mongo mongo.hygieia.com/admin /tmp/db-setup.js
+  mongo localhost/admin /tmp/db-setup.js
 # fi
