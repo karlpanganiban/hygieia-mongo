@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo service mongod start
+service mongod start
 # if we are linked, use that info
 # docker-compose uses depends_on, but while building the following will fail since it
 # assumes a hard-dependency on 'mongodb'
